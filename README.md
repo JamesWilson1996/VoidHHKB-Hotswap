@@ -38,3 +38,28 @@
 12) You should see a breakdown of the price for the PCBs you want to order. Select `Keyboard - HS Code 847330` under `Office Appliance Accessories` for the Product Description.
 
 13) Save to cart, and pay for it!
+
+## Flashing Firmware
+
+1) Install and launch [QMK Toolbox](https://qmk.fm/toolbox)
+
+2) Connect PCB via USB. Hold down reset button to enter bootloader
+
+3) Under 'Local file' open firmware/void_voidhhkb_via.bin. Everything else can be left as default (MCU should be ATmega32U4)
+
+4) Click Flash!
+
+5) Unplug and plug in again to complete set up
+
+
+## Using VIA
+
+Temp instructions until I get around to merging files into QMK repo...
+1) To edit keymap in via open web page and select 'Design' on the top ribbon
+
+2) Click 'Load Draft Definition' and load '/firmware/voidhhkb/via.json'
+
+## Build your own firmware
+
+- Files have been included under 'firmware' if you want to build the bin files yourself.
+- This is fairly trivial to do by following the [QMK Tutorial](https://docs.qmk.fm/newbs)
