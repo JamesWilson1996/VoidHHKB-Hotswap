@@ -515,7 +515,7 @@
 		)
 		(fp_arc
 			(start 9.03125 8.000001)
-			(mid 8.677693 7.853543)
+			(mid 8.677729 7.853537)
 			(end 8.53125 7.500001)
 			(stroke
 				(width 0.05)
@@ -526,7 +526,7 @@
 		)
 		(fp_arc
 			(start 14.780039 -5.999999)
-			(mid 15.133602 -5.853545)
+			(mid 15.133567 -5.853539)
 			(end 15.280039 -5.499999)
 			(stroke
 				(width 0.05)
@@ -537,7 +537,7 @@
 		)
 		(fp_arc
 			(start 15.28125 7.500001)
-			(mid 15.1348 7.853536)
+			(mid 15.134806 7.853571)
 			(end 14.78125 8.000001)
 			(stroke
 				(width 0.05)
@@ -1134,7 +1134,7 @@
 		)
 		(fp_arc
 			(start 9.03125 8.000001)
-			(mid 8.677693 7.853543)
+			(mid 8.677729 7.853537)
 			(end 8.53125 7.500001)
 			(stroke
 				(width 0.05)
@@ -1145,7 +1145,7 @@
 		)
 		(fp_arc
 			(start 14.780039 -5.999999)
-			(mid 15.133602 -5.853545)
+			(mid 15.133567 -5.853539)
 			(end 15.280039 -5.499999)
 			(stroke
 				(width 0.05)
@@ -1156,7 +1156,7 @@
 		)
 		(fp_arc
 			(start 15.28125 7.500001)
-			(mid 15.1348 7.853536)
+			(mid 15.134806 7.853571)
 			(end 14.78125 8.000001)
 			(stroke
 				(width 0.05)
@@ -37270,7 +37270,7 @@
 		(at 41.056735 71.894615 180)
 		(descr "Footprint for Cherry MX style switches with Kailh hotswap socket")
 		(property "Reference" "MX30"
-			(at -4.25 1.75 360)
+			(at -4.25 1.75 0)
 			(layer "B.SilkS")
 			(uuid "198290db-e013-430d-b682-efc7a7568d3b")
 			(effects
@@ -37282,7 +37282,7 @@
 			)
 		)
 		(property "Value" "MX_SW_HS"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "5eb71362-44cb-49b5-b1e4-62d24511104f")
 			(effects
@@ -37294,7 +37294,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1.75u"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "d7043056-10c3-4a57-ba4f-3c14ab553f1d")
@@ -37307,7 +37307,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "a43df1e5-98c7-43ab-9ddc-ebdcfad55ca2")
@@ -37320,7 +37320,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "c3fd9e79-d093-4b1e-ac42-835b00de014c")
@@ -37770,7 +37770,7 @@
 			(uuid "2e608d5c-278f-4c4e-bd2b-7916d3628d18")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.5 4.5 360)
+			(at 0.5 4.5 0)
 			(layer "B.Fab")
 			(uuid "7265a7f5-e163-421f-b517-cbfde9c112ec")
 			(effects
@@ -66278,6 +66278,17 @@
 			)
 		)
 	)
+	(gr_rect
+		(start 117.0629 104.34455)
+		(end 148.10435 111.4883)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(fill none)
+		(layer "B.SilkS")
+		(uuid "78bdd19f-a133-4e07-8340-410e0b2e7f84")
+	)
 	(gr_line
 		(start 310.462509 26.78967)
 		(end 310.462509 116.08857)
@@ -66391,6 +66402,32 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "ed67b417-c8a3-44ab-9325-6276ef1991d0")
+	)
+	(gr_text "VoidHHKB-Hotswap"
+		(at 132.7742 108.3133 0)
+		(layer "B.SilkS")
+		(uuid "34337165-ca47-417c-baac-31404aedefc7")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.5)
+				(bold yes)
+			)
+			(justify bottom mirror)
+		)
+	)
+	(gr_text "ver. ${CURRENT_DATE}"
+		(at 132.7742 109.10705 0)
+		(layer "B.SilkS")
+		(uuid "fc72846d-7a29-4690-b20d-09ef88cf22e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify top mirror)
+		)
 	)
 	(segment
 		(start 274.254304 102.782154)
