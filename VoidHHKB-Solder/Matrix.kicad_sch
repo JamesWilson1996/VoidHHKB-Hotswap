@@ -168,6 +168,175 @@
 				)
 			)
 		)
+		(symbol "MX_SW_solder_1"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "MX"
+				(at 3.048 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MX_SW_solder"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MX_SW_solder_1_0_1"
+				(circle
+					(center -1.1684 1.1684)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.54) (xy 2.54 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.016) (xy 2.032 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -1.524 1.524) (xy -1.524 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -1.524) (xy 2.54 -2.54) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.143 -1.1938)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 2.54 0)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -2.54 180)
+					(length 0)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "PCM_marbastlib-mx:MX_SW_solder"
 			(pin_numbers hide)
 			(pin_names
@@ -3016,7 +3185,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0162dcf9-5983-47c4-bdae-cd97b1565453")
-		(property "Reference" "MX35"
+		(property "Reference" "MX36"
 			(at 104.14 83.82 0)
 			(effects
 				(font
@@ -3024,7 +3193,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "G"
 			(at 104.14 86.36 0)
 			(effects
 				(font
@@ -3068,7 +3237,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "MX35")
+					(reference "MX36")
 					(unit 1)
 				)
 			)
@@ -3260,7 +3429,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07eb38c2-ad3c-45dc-b5f5-5e3cad460c94")
-		(property "Reference" "MX58"
+		(property "Reference" "MX65"
 			(at 116.84 157.48 0)
 			(effects
 				(font
@@ -3268,7 +3437,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "Spacebar"
 			(at 116.84 160.02 0)
 			(effects
 				(font
@@ -3312,7 +3481,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "MX58")
+					(reference "MX65")
 					(unit 1)
 				)
 			)
@@ -3328,7 +3497,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0acfa47c-9ab5-4e8b-a283-fe9b1d7b7122")
-		(property "Reference" "D46"
+		(property "Reference" "D48"
 			(at 71.12 129.5399 90)
 			(effects
 				(font
@@ -3400,7 +3569,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "D46")
+					(reference "D48")
 					(unit 1)
 				)
 			)
@@ -3424,7 +3593,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "1"
 			(at 40.64 30.48 0)
 			(effects
 				(font
@@ -3484,7 +3653,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0cf681a5-7cc9-4fc6-a764-af0d7113772e")
-		(property "Reference" "D61"
+		(property "Reference" "D63"
 			(at 172.72 170.1799 90)
 			(effects
 				(font
@@ -3556,7 +3725,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "D61")
+					(reference "D63")
 					(unit 1)
 				)
 			)
@@ -3572,7 +3741,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0db7c6e1-a862-40ed-8541-cec267cf29f7")
-		(property "Reference" "MX66"
+		(property "Reference" "MX48"
 			(at 40.64 116.84 0)
 			(effects
 				(font
@@ -3580,7 +3749,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "NUHS"
 			(at 40.64 119.38 0)
 			(effects
 				(font
@@ -3624,7 +3793,7 @@
 		(instances
 			(project "VoidHHKB-Solder"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "MX66")
+					(reference "MX48")
 					(unit 1)
 				)
 			)
@@ -3640,7 +3809,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10331c18-9f6f-40c5-875f-e7797649cb90")
-		(property "Reference" "D44"
+		(property "Reference" "D45"
 			(at 33.02 129.5399 90)
 			(effects
 				(font
@@ -3712,7 +3881,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "D44")
+					(reference "D45")
 					(unit 1)
 				)
 			)
@@ -3816,7 +3985,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12246f96-668b-45d8-ad23-897c08e8ddc4")
-		(property "Reference" "MX51"
+		(property "Reference" "MX56"
 			(at 142.24 116.84 0)
 			(effects
 				(font
@@ -3824,7 +3993,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" ","
 			(at 142.24 119.38 0)
 			(effects
 				(font
@@ -3868,7 +4037,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "MX51")
+					(reference "MX56")
 					(unit 1)
 				)
 			)
@@ -3972,7 +4141,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19f12869-16e2-4d7a-b812-450650204591")
-		(property "Reference" "D51"
+		(property "Reference" "D53"
 			(at 134.62 129.5399 90)
 			(effects
 				(font
@@ -4044,7 +4213,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "D51")
+					(reference "D53")
 					(unit 1)
 				)
 			)
@@ -4148,7 +4317,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2600e129-3139-4a1c-b35a-69e254197f29")
-		(property "Reference" "D54"
+		(property "Reference" "D56"
 			(at 172.72 129.5399 90)
 			(effects
 				(font
@@ -4220,7 +4389,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "D54")
+					(reference "D56")
 					(unit 1)
 				)
 			)
@@ -4236,7 +4405,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "268ef2a3-b2d4-4731-8a3a-88aa90357451")
-		(property "Reference" "MX67"
+		(property "Reference" "MX61"
 			(at 27.94 137.16 0)
 			(effects
 				(font
@@ -4244,7 +4413,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "LShift 1.25u"
 			(at 27.94 139.7 0)
 			(effects
 				(font
@@ -4252,7 +4421,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1.25u"
 			(at 27.94 144.78 0)
 			(effects
 				(font
@@ -4288,7 +4457,7 @@
 		(instances
 			(project "VoidHHKB-Solder"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "MX67")
+					(reference "MX61")
 					(unit 1)
 				)
 			)
@@ -4304,7 +4473,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a5dfaa1-5f25-4a1e-a41c-49f2af35b4c3")
-		(property "Reference" "S3"
+		(property "Reference" "S6"
 			(at 234.95 151.0029 0)
 			(effects
 				(font
@@ -4352,7 +4521,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "S3")
+					(reference "S6")
 					(unit 1)
 				)
 			)
@@ -4368,7 +4537,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ed3dfc2-a614-497b-9034-c2cdd0c0c8a4")
-		(property "Reference" "MX45"
+		(property "Reference" "MX50"
 			(at 66.04 116.84 0)
 			(effects
 				(font
@@ -4376,7 +4545,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "X"
 			(at 66.04 119.38 0)
 			(effects
 				(font
@@ -4420,7 +4589,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "MX45")
+					(reference "MX50")
 					(unit 1)
 				)
 			)
@@ -4436,7 +4605,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f87d34d-f68e-460e-aaf7-ce87612ea4e8")
-		(property "Reference" "MX61"
+		(property "Reference" "MX68"
 			(at 116.84 175.26 0)
 			(effects
 				(font
@@ -4444,7 +4613,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "Off Center Spacebar"
 			(at 116.84 177.8 0)
 			(effects
 				(font
@@ -4488,7 +4657,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "MX61")
+					(reference "MX68")
 					(unit 1)
 				)
 			)
@@ -4592,7 +4761,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3054ba31-7e5a-4999-b31d-7ea32c7ab1bb")
-		(property "Reference" "D43"
+		(property "Reference" "D44"
 			(at 210.82 96.5199 90)
 			(effects
 				(font
@@ -4664,7 +4833,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "D43")
+					(reference "D44")
 					(unit 1)
 				)
 			)
@@ -4680,7 +4849,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "312a6ffa-387a-4d9d-b87a-66e54b120062")
-		(property "Reference" "D52"
+		(property "Reference" "D54"
 			(at 147.32 129.5399 90)
 			(effects
 				(font
@@ -4752,13 +4921,14 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "D52")
+					(reference "D54")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_name "MX_SW_solder_1")
 		(lib_id "PCM_marbastlib-mx:MX_SW_solder")
 		(at 27.94 35.56 0)
 		(unit 1)
@@ -4776,7 +4946,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "Esc"
 			(at 27.94 30.48 0)
 			(effects
 				(font
@@ -4844,7 +5014,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "8"
 			(at 129.54 30.48 0)
 			(effects
 				(font
@@ -4904,7 +5074,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37ea98aa-3e93-477d-861d-997bd1c3ab89")
-		(property "Reference" "D62"
+		(property "Reference" "D43"
 			(at 198.12 96.5199 90)
 			(effects
 				(font
@@ -4976,7 +5146,7 @@
 		(instances
 			(project "VoidHHKB-Solder"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "D62")
+					(reference "D43")
 					(unit 1)
 				)
 			)
@@ -4991,7 +5161,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "38db395f-374a-4cf1-9362-ba7ee90953e9")
-		(property "Reference" "MX65"
+		(property "Reference" "MX43"
 			(at 193.04 83.82 0)
 			(effects
 				(font
@@ -5043,7 +5213,7 @@
 		(instances
 			(project "VoidHHKB-Solder"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "MX65")
+					(reference "MX43")
 					(unit 1)
 				)
 			)
@@ -5059,7 +5229,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "398dc7a6-7cb3-41fc-bd0d-51c39e9f294c")
-		(property "Reference" "MX26"
+		(property "Reference" "MX27"
 			(at 167.64 58.42 0)
 			(effects
 				(font
@@ -5067,7 +5237,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "P"
 			(at 167.64 60.96 0)
 			(effects
 				(font
@@ -5111,7 +5281,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "MX26")
+					(reference "MX27")
 					(unit 1)
 				)
 			)
@@ -5127,7 +5297,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b000be0-ba9d-4b53-b983-4798cd31acd7")
-		(property "Reference" "MX21"
+		(property "Reference" "MX22"
 			(at 104.14 58.42 0)
 			(effects
 				(font
@@ -5135,7 +5305,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "T"
 			(at 104.14 60.96 0)
 			(effects
 				(font
@@ -5179,7 +5349,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "MX21")
+					(reference "MX22")
 					(unit 1)
 				)
 			)
@@ -5371,7 +5541,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ca91080-19cc-45c4-b688-7857b2abb823")
-		(property "Reference" "MX44"
+		(property "Reference" "MX49"
 			(at 53.34 116.84 0)
 			(effects
 				(font
@@ -5379,7 +5549,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "Z"
 			(at 53.34 119.38 0)
 			(effects
 				(font
@@ -5423,7 +5593,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "MX44")
+					(reference "MX49")
 					(unit 1)
 				)
 			)
@@ -5439,7 +5609,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3db0a2f0-64f7-4edb-81dd-d67ca88fe114")
-		(property "Reference" "MX25"
+		(property "Reference" "MX26"
 			(at 154.94 58.42 0)
 			(effects
 				(font
@@ -5447,7 +5617,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "O"
 			(at 154.94 60.96 0)
 			(effects
 				(font
@@ -5491,7 +5661,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "MX25")
+					(reference "MX26")
 					(unit 1)
 				)
 			)
@@ -5507,7 +5677,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f71fbca-c19e-4f4b-962b-8160aab7ce33")
-		(property "Reference" "S4"
+		(property "Reference" "S1"
 			(at 217.17 50.6729 0)
 			(effects
 				(font
@@ -5555,7 +5725,7 @@
 		(instances
 			(project ""
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "S4")
+					(reference "S1")
 					(unit 1)
 				)
 			)
@@ -5667,7 +5837,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "5"
 			(at 91.44 30.48 0)
 			(effects
 				(font
@@ -5727,7 +5897,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41479fd8-160f-475c-a261-77c8401d4acf")
-		(property "Reference" "MX60"
+		(property "Reference" "MX67"
 			(at 167.64 157.48 0)
 			(effects
 				(font
@@ -5735,7 +5905,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "Alt"
 			(at 167.64 160.02 0)
 			(effects
 				(font
@@ -5779,7 +5949,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "MX60")
+					(reference "MX67")
 					(unit 1)
 				)
 			)
@@ -5882,7 +6052,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "444e4ef5-44a9-46f1-866f-b0981725e95f")
-		(property "Reference" "MX42"
+		(property "Reference" "MX44"
 			(at 205.74 83.82 0)
 			(effects
 				(font
@@ -5890,7 +6060,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "ANSI Enter"
 			(at 205.74 86.36 0)
 			(effects
 				(font
@@ -5934,7 +6104,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "MX42")
+					(reference "MX44")
 					(unit 1)
 				)
 			)
@@ -5949,7 +6119,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "448ab5ae-1f76-4a98-b99d-df1dd494169a")
-		(property "Reference" "MX32"
+		(property "Reference" "MX33"
 			(at 66.04 83.82 0)
 			(effects
 				(font
@@ -5957,7 +6127,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "S"
 			(at 66.04 86.36 0)
 			(effects
 				(font
@@ -6001,7 +6171,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "MX32")
+					(reference "MX33")
 					(unit 1)
 				)
 			)
@@ -6105,7 +6275,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d0daef2-8b73-4de7-86f9-c097d13f0f25")
-		(property "Reference" "D60"
+		(property "Reference" "D62"
 			(at 160.02 170.1799 90)
 			(effects
 				(font
@@ -6177,7 +6347,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "D60")
+					(reference "D62")
 					(unit 1)
 				)
 			)
@@ -6193,7 +6363,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4df4973c-1259-4ef8-a862-d0643440e0e5")
-		(property "Reference" "MX49"
+		(property "Reference" "MX54"
 			(at 116.84 116.84 0)
 			(effects
 				(font
@@ -6201,7 +6371,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "N"
 			(at 116.84 119.38 0)
 			(effects
 				(font
@@ -6245,7 +6415,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "MX49")
+					(reference "MX54")
 					(unit 1)
 				)
 			)
@@ -6261,7 +6431,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e1c381b-c306-4dee-8ab4-b980e3713d79")
-		(property "Reference" "MX28"
+		(property "Reference" "MX29"
 			(at 193.04 58.42 0)
 			(effects
 				(font
@@ -6269,7 +6439,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "]"
 			(at 193.04 60.96 0)
 			(effects
 				(font
@@ -6313,7 +6483,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "MX28")
+					(reference "MX29")
 					(unit 1)
 				)
 			)
@@ -6329,7 +6499,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "512c6f1d-a4c7-4b7f-a2be-42a72f1e1a01")
-		(property "Reference" "MX20"
+		(property "Reference" "MX21"
 			(at 91.44 58.42 0)
 			(effects
 				(font
@@ -6337,7 +6507,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "R"
 			(at 91.44 60.96 0)
 			(effects
 				(font
@@ -6381,7 +6551,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "MX20")
+					(reference "MX21")
 					(unit 1)
 				)
 			)
@@ -6573,7 +6743,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "582f59f0-9bd1-46d0-98ff-75b3935209b3")
-		(property "Reference" "MX55"
+		(property "Reference" "MX60"
 			(at 205.74 116.84 0)
 			(effects
 				(font
@@ -6581,7 +6751,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "fn"
 			(at 205.74 119.38 0)
 			(effects
 				(font
@@ -6625,7 +6795,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "MX55")
+					(reference "MX60")
 					(unit 1)
 				)
 			)
@@ -6649,7 +6819,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "6"
 			(at 104.14 30.48 0)
 			(effects
 				(font
@@ -6796,7 +6966,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5af833aa-9eff-467b-a6f7-d2b3a90488ee")
-		(property "Reference" "MX36"
+		(property "Reference" "MX37"
 			(at 116.84 83.82 0)
 			(effects
 				(font
@@ -6804,7 +6974,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "H"
 			(at 116.84 86.36 0)
 			(effects
 				(font
@@ -6848,7 +7018,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "MX36")
+					(reference "MX37")
 					(unit 1)
 				)
 			)
@@ -6872,7 +7042,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "="
 			(at 180.34 30.48 0)
 			(effects
 				(font
@@ -6932,7 +7102,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f82c6ec-5b29-4c42-8d59-58577cf58a2f")
-		(property "Reference" "D53"
+		(property "Reference" "D55"
 			(at 160.02 129.5399 90)
 			(effects
 				(font
@@ -7004,7 +7174,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "D53")
+					(reference "D55")
 					(unit 1)
 				)
 			)
@@ -7108,7 +7278,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6373d325-cd26-4ba7-9d57-51a0672c49fc")
-		(property "Reference" "D57"
+		(property "Reference" "D59"
 			(at 58.42 170.1799 90)
 			(effects
 				(font
@@ -7180,7 +7350,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "D57")
+					(reference "D59")
 					(unit 1)
 				)
 			)
@@ -7372,7 +7542,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "651f4bf7-1165-43c9-991d-38d2eaf1df78")
-		(property "Reference" "MX46"
+		(property "Reference" "MX51"
 			(at 78.74 116.84 0)
 			(effects
 				(font
@@ -7380,7 +7550,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "C"
 			(at 78.74 119.38 0)
 			(effects
 				(font
@@ -7424,7 +7594,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "MX46")
+					(reference "MX51")
 					(unit 1)
 				)
 			)
@@ -7440,7 +7610,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69af6dcc-73cb-4ec0-9ecb-601fee30611a")
-		(property "Reference" "MX23"
+		(property "Reference" "MX24"
 			(at 129.54 58.42 0)
 			(effects
 				(font
@@ -7448,7 +7618,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "U"
 			(at 129.54 60.96 0)
 			(effects
 				(font
@@ -7492,7 +7662,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "MX23")
+					(reference "MX24")
 					(unit 1)
 				)
 			)
@@ -7508,7 +7678,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6eb025b2-4d28-4ecf-9636-16659fcf42d5")
-		(property "Reference" "MX43"
+		(property "Reference" "MX47"
 			(at 27.94 116.84 0)
 			(effects
 				(font
@@ -7516,7 +7686,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "LShift"
 			(at 27.94 119.38 0)
 			(effects
 				(font
@@ -7560,7 +7730,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "MX43")
+					(reference "MX47")
 					(unit 1)
 				)
 			)
@@ -7576,7 +7746,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6fd9b695-2287-40c1-b4b8-b1ac98e09e8a")
-		(property "Reference" "MX62"
+		(property "Reference" "MX45"
 			(at 27.94 104.14 0)
 			(effects
 				(font
@@ -7584,7 +7754,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "Caps"
 			(at 27.94 106.68 0)
 			(effects
 				(font
@@ -7628,7 +7798,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "MX62")
+					(reference "MX45")
 					(unit 1)
 				)
 			)
@@ -7644,7 +7814,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70034fa4-e6d7-488b-9b96-e332b3979bde")
-		(property "Reference" "MX24"
+		(property "Reference" "MX25"
 			(at 142.24 58.42 0)
 			(effects
 				(font
@@ -7652,7 +7822,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "I"
 			(at 142.24 60.96 0)
 			(effects
 				(font
@@ -7696,7 +7866,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "MX24")
+					(reference "MX25")
 					(unit 1)
 				)
 			)
@@ -7711,7 +7881,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "70bc6585-c2c0-43ea-95e1-23929dad1471")
-		(property "Reference" "MX39"
+		(property "Reference" "MX40"
 			(at 154.94 83.82 0)
 			(effects
 				(font
@@ -7719,7 +7889,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "L"
 			(at 154.94 86.36 0)
 			(effects
 				(font
@@ -7763,7 +7933,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "MX39")
+					(reference "MX40")
 					(unit 1)
 				)
 			)
@@ -7787,7 +7957,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "9"
 			(at 142.24 30.48 0)
 			(effects
 				(font
@@ -8023,7 +8193,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b32b7de-1d78-4e17-88ff-dfb09c3acbfa")
-		(property "Reference" "MX50"
+		(property "Reference" "MX55"
 			(at 129.54 116.84 0)
 			(effects
 				(font
@@ -8031,7 +8201,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "M"
 			(at 129.54 119.38 0)
 			(effects
 				(font
@@ -8075,7 +8245,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "MX50")
+					(reference "MX55")
 					(unit 1)
 				)
 			)
@@ -8187,7 +8357,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "\\"
 			(at 193.04 30.48 0)
 			(effects
 				(font
@@ -8246,7 +8416,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8822f610-fdb2-4b7c-bf34-1614e830142c")
-		(property "Reference" "MX41"
+		(property "Reference" "MX42"
 			(at 180.34 83.82 0)
 			(effects
 				(font
@@ -8254,7 +8424,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "'"
 			(at 180.34 86.36 0)
 			(effects
 				(font
@@ -8298,7 +8468,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "MX41")
+					(reference "MX42")
 					(unit 1)
 				)
 			)
@@ -8314,7 +8484,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8885e6fb-415a-4750-8374-e9417408e481")
-		(property "Reference" "S1"
+		(property "Reference" "S2"
 			(at 234.95 90.0429 0)
 			(effects
 				(font
@@ -8362,7 +8532,7 @@
 		(instances
 			(project ""
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "S1")
+					(reference "S2")
 					(unit 1)
 				)
 			)
@@ -8386,7 +8556,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "-"
 			(at 167.64 30.48 0)
 			(effects
 				(font
@@ -8542,7 +8712,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "10"
 			(at 154.94 30.48 0)
 			(effects
 				(font
@@ -8602,7 +8772,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91af1461-67a8-4bea-bf37-3a0ca31e20ec")
-		(property "Reference" "MX22"
+		(property "Reference" "MX23"
 			(at 116.84 58.42 0)
 			(effects
 				(font
@@ -8610,7 +8780,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "Y"
 			(at 116.84 60.96 0)
 			(effects
 				(font
@@ -8654,7 +8824,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "MX22")
+					(reference "MX23")
 					(unit 1)
 				)
 			)
@@ -8678,7 +8848,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "3"
 			(at 66.04 30.48 0)
 			(effects
 				(font
@@ -8738,7 +8908,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91d4e2dc-d69d-413a-9506-2518e65820c1")
-		(property "Reference" "D48"
+		(property "Reference" "D50"
 			(at 96.52 129.5399 90)
 			(effects
 				(font
@@ -8810,7 +8980,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "D48")
+					(reference "D50")
 					(unit 1)
 				)
 			)
@@ -9266,7 +9436,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9460efc1-3dd0-4854-8bf7-b5491e7ce926")
-		(property "Reference" "S2"
+		(property "Reference" "S4"
 			(at 234.95 125.6029 0)
 			(effects
 				(font
@@ -9314,7 +9484,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "S2")
+					(reference "S4")
 					(unit 1)
 				)
 			)
@@ -9506,7 +9676,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e3c431f-47ff-4921-bd57-49a0b0d328c4")
-		(property "Reference" "MX30"
+		(property "Reference" "MX31"
 			(at 27.94 83.82 0)
 			(effects
 				(font
@@ -9514,7 +9684,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "Stepped Caps"
 			(at 27.94 86.36 0)
 			(effects
 				(font
@@ -9558,7 +9728,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "MX30")
+					(reference "MX31")
 					(unit 1)
 				)
 			)
@@ -9574,7 +9744,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a35d628a-a15e-4aac-9453-f01621a8f99b")
-		(property "Reference" "MX19"
+		(property "Reference" "MX20"
 			(at 78.74 58.42 0)
 			(effects
 				(font
@@ -9582,7 +9752,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "E"
 			(at 78.74 60.96 0)
 			(effects
 				(font
@@ -9626,7 +9796,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "MX19")
+					(reference "MX20")
 					(unit 1)
 				)
 			)
@@ -9642,7 +9812,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a53c1aff-0e94-4e79-883d-4fe4a72add37")
-		(property "Reference" "D50"
+		(property "Reference" "D52"
 			(at 121.92 129.5399 90)
 			(effects
 				(font
@@ -9714,7 +9884,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "D50")
+					(reference "D52")
 					(unit 1)
 				)
 			)
@@ -9818,7 +9988,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab548400-f6b0-4298-836a-ad31022808a1")
-		(property "Reference" "MX68"
+		(property "Reference" "MX62"
 			(at 193.04 137.16 0)
 			(effects
 				(font
@@ -9826,7 +9996,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "RShift 2.75u"
 			(at 193.04 139.7 0)
 			(effects
 				(font
@@ -9870,7 +10040,7 @@
 		(instances
 			(project "VoidHHKB-Solder"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "MX68")
+					(reference "MX62")
 					(unit 1)
 				)
 			)
@@ -9886,7 +10056,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae6d91c7-bf9e-41a5-889f-57ee5fe3068e")
-		(property "Reference" "MX29"
+		(property "Reference" "MX30"
 			(at 205.74 58.42 0)
 			(effects
 				(font
@@ -9894,7 +10064,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "Backspace"
 			(at 205.74 60.96 0)
 			(effects
 				(font
@@ -9902,7 +10072,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1.5u"
 			(at 205.74 66.04 0)
 			(effects
 				(font
@@ -9938,7 +10108,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "MX29")
+					(reference "MX30")
 					(unit 1)
 				)
 			)
@@ -9954,7 +10124,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af994d94-7365-432e-810e-d42113338ef5")
-		(property "Reference" "MX63"
+		(property "Reference" "MX16"
 			(at 193.04 45.72 0)
 			(effects
 				(font
@@ -9962,7 +10132,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "Full Backspace"
 			(at 193.04 48.26 0)
 			(effects
 				(font
@@ -10006,7 +10176,7 @@
 		(instances
 			(project "VoidHHKB-Solder"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "MX63")
+					(reference "MX16")
 					(unit 1)
 				)
 			)
@@ -10022,7 +10192,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b28ff10c-8dce-4675-9507-a6862ae1d201")
-		(property "Reference" "MX52"
+		(property "Reference" "MX57"
 			(at 154.94 116.84 0)
 			(effects
 				(font
@@ -10030,7 +10200,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "."
 			(at 154.94 119.38 0)
 			(effects
 				(font
@@ -10074,7 +10244,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "MX52")
+					(reference "MX57")
 					(unit 1)
 				)
 			)
@@ -10266,7 +10436,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6000bf3-da03-4966-b9c4-b8a57afe3f48")
-		(property "Reference" "D59"
+		(property "Reference" "D61"
 			(at 121.92 170.1799 90)
 			(effects
 				(font
@@ -10338,7 +10508,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "D59")
+					(reference "D61")
 					(unit 1)
 				)
 			)
@@ -10362,7 +10532,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "2"
 			(at 53.34 30.48 0)
 			(effects
 				(font
@@ -10510,7 +10680,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc40c7b5-5781-4507-9b24-29e23e812d8f")
-		(property "Reference" "D45"
+		(property "Reference" "D47"
 			(at 58.42 129.5399 90)
 			(effects
 				(font
@@ -10582,7 +10752,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "D45")
+					(reference "D47")
 					(unit 1)
 				)
 			)
@@ -10685,7 +10855,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bebf83b8-3a22-4d71-809c-36412e23d4af")
-		(property "Reference" "MX34"
+		(property "Reference" "MX35"
 			(at 91.44 83.82 0)
 			(effects
 				(font
@@ -10693,7 +10863,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "F"
 			(at 91.44 86.36 0)
 			(effects
 				(font
@@ -10737,7 +10907,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "MX34")
+					(reference "MX35")
 					(unit 1)
 				)
 			)
@@ -10753,7 +10923,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0647d62-cac8-4896-9152-c7658701d330")
-		(property "Reference" "MX59"
+		(property "Reference" "MX66"
 			(at 154.94 157.48 0)
 			(effects
 				(font
@@ -10761,7 +10931,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "Super"
 			(at 154.94 160.02 0)
 			(effects
 				(font
@@ -10769,7 +10939,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1.5u"
 			(at 154.94 165.1 0)
 			(effects
 				(font
@@ -10805,7 +10975,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "MX59")
+					(reference "MX66")
 					(unit 1)
 				)
 			)
@@ -10820,7 +10990,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c115afc0-2f7e-458b-9832-601069fbbf51")
-		(property "Reference" "MX31"
+		(property "Reference" "MX32"
 			(at 53.34 83.82 0)
 			(effects
 				(font
@@ -10828,7 +10998,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "A"
 			(at 53.34 86.36 0)
 			(effects
 				(font
@@ -10872,7 +11042,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "MX31")
+					(reference "MX32")
 					(unit 1)
 				)
 			)
@@ -10888,7 +11058,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c490db02-ed9d-445e-bddf-5f1c4da6505e")
-		(property "Reference" "MX48"
+		(property "Reference" "MX53"
 			(at 104.14 116.84 0)
 			(effects
 				(font
@@ -10896,7 +11066,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "B"
 			(at 104.14 119.38 0)
 			(effects
 				(font
@@ -10940,7 +11110,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "MX48")
+					(reference "MX53")
 					(unit 1)
 				)
 			)
@@ -10955,7 +11125,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c54d5620-0dd4-4293-822c-4ff8e5bf2e5d")
-		(property "Reference" "MX40"
+		(property "Reference" "MX41"
 			(at 167.64 83.82 0)
 			(effects
 				(font
@@ -10963,7 +11133,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" ";"
 			(at 167.64 86.36 0)
 			(effects
 				(font
@@ -11007,7 +11177,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "MX40")
+					(reference "MX41")
 					(unit 1)
 				)
 			)
@@ -11111,7 +11281,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc7d22d5-2c5c-4609-aaa0-d22dd68a473e")
-		(property "Reference" "MX56"
+		(property "Reference" "MX63"
 			(at 53.34 157.48 0)
 			(effects
 				(font
@@ -11119,7 +11289,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "Alt"
 			(at 53.34 160.02 0)
 			(effects
 				(font
@@ -11163,7 +11333,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "MX56")
+					(reference "MX63")
 					(unit 1)
 				)
 			)
@@ -11187,7 +11357,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "`"
 			(at 205.74 30.48 0)
 			(effects
 				(font
@@ -11247,7 +11417,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d35afb57-b68c-4620-91d4-f88b6d1f8ee8")
-		(property "Reference" "MX54"
+		(property "Reference" "MX59"
 			(at 193.04 116.84 0)
 			(effects
 				(font
@@ -11255,7 +11425,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "RShift 1.75u"
 			(at 193.04 119.38 0)
 			(effects
 				(font
@@ -11263,7 +11433,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1.75u"
 			(at 193.04 124.46 0)
 			(effects
 				(font
@@ -11299,7 +11469,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "MX54")
+					(reference "MX59")
 					(unit 1)
 				)
 			)
@@ -11491,7 +11661,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d70fb242-7373-405b-855e-d0476469c576")
-		(property "Reference" "MX53"
+		(property "Reference" "MX58"
 			(at 167.64 116.84 0)
 			(effects
 				(font
@@ -11499,7 +11669,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "/"
 			(at 167.64 119.38 0)
 			(effects
 				(font
@@ -11543,7 +11713,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "MX53")
+					(reference "MX58")
 					(unit 1)
 				)
 			)
@@ -11567,7 +11737,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "4"
 			(at 78.74 30.48 0)
 			(effects
 				(font
@@ -11627,7 +11797,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7c576ab-f363-4063-8bab-afe2f636f5c4")
-		(property "Reference" "S6"
+		(property "Reference" "S5"
 			(at 218.44 142.1129 0)
 			(effects
 				(font
@@ -11675,7 +11845,7 @@
 		(instances
 			(project "VoidHHKB-Solder"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "S6")
+					(reference "S5")
 					(unit 1)
 				)
 			)
@@ -11691,7 +11861,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dcbfec3d-4a65-4bc4-81b4-cab354072be4")
-		(property "Reference" "D47"
+		(property "Reference" "D49"
 			(at 83.82 129.5399 90)
 			(effects
 				(font
@@ -11763,7 +11933,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "D47")
+					(reference "D49")
 					(unit 1)
 				)
 			)
@@ -11867,7 +12037,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3a69e38-0b49-4162-ad17-a059fd7f33e3")
-		(property "Reference" "D49"
+		(property "Reference" "D51"
 			(at 109.22 129.5399 90)
 			(effects
 				(font
@@ -11939,7 +12109,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "D49")
+					(reference "D51")
 					(unit 1)
 				)
 			)
@@ -11955,7 +12125,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e431e017-fd93-4ec1-a28f-c9a39f54ee15")
-		(property "Reference" "MX17"
+		(property "Reference" "MX18"
 			(at 53.34 58.42 0)
 			(effects
 				(font
@@ -11963,7 +12133,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "Q"
 			(at 53.34 60.96 0)
 			(effects
 				(font
@@ -12007,7 +12177,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "MX17")
+					(reference "MX18")
 					(unit 1)
 				)
 			)
@@ -12023,7 +12193,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e580d7e7-4474-454c-b21b-09bd9977c092")
-		(property "Reference" "MX18"
+		(property "Reference" "MX19"
 			(at 66.04 58.42 0)
 			(effects
 				(font
@@ -12031,7 +12201,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "W"
 			(at 66.04 60.96 0)
 			(effects
 				(font
@@ -12075,7 +12245,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "MX18")
+					(reference "MX19")
 					(unit 1)
 				)
 			)
@@ -12090,7 +12260,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e851e24b-1f61-4a77-901a-b9925a26a18f")
-		(property "Reference" "MX38"
+		(property "Reference" "MX39"
 			(at 142.24 83.82 0)
 			(effects
 				(font
@@ -12098,7 +12268,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "K"
 			(at 142.24 86.36 0)
 			(effects
 				(font
@@ -12142,7 +12312,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "MX38")
+					(reference "MX39")
 					(unit 1)
 				)
 			)
@@ -12158,7 +12328,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8ad5818-eea2-420b-9336-4b2eab8b5f90")
-		(property "Reference" "D63"
+		(property "Reference" "D46"
 			(at 45.72 129.5399 90)
 			(effects
 				(font
@@ -12230,7 +12400,7 @@
 		(instances
 			(project "VoidHHKB-Solder"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "D63")
+					(reference "D46")
 					(unit 1)
 				)
 			)
@@ -12246,7 +12416,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eda89b40-2110-4ba0-bf23-ffb3e48ef41e")
-		(property "Reference" "MX57"
+		(property "Reference" "MX64"
 			(at 66.04 157.48 0)
 			(effects
 				(font
@@ -12254,7 +12424,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "Super"
 			(at 66.04 160.02 0)
 			(effects
 				(font
@@ -12262,7 +12432,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1.5u"
 			(at 66.04 165.1 0)
 			(effects
 				(font
@@ -12298,7 +12468,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "MX57")
+					(reference "MX64")
 					(unit 1)
 				)
 			)
@@ -12314,7 +12484,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "edddff74-25c2-4eaf-b940-970404efef45")
-		(property "Reference" "D55"
+		(property "Reference" "D57"
 			(at 198.12 129.5399 90)
 			(effects
 				(font
@@ -12386,7 +12556,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "D55")
+					(reference "D57")
 					(unit 1)
 				)
 			)
@@ -12498,7 +12668,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "7"
 			(at 116.84 30.48 0)
 			(effects
 				(font
@@ -12646,7 +12816,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1619f0b-7ba0-4ac3-8284-aede74f9bac8")
-		(property "Reference" "MX27"
+		(property "Reference" "MX28"
 			(at 180.34 58.42 0)
 			(effects
 				(font
@@ -12654,7 +12824,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "["
 			(at 180.34 60.96 0)
 			(effects
 				(font
@@ -12698,7 +12868,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "MX27")
+					(reference "MX28")
 					(unit 1)
 				)
 			)
@@ -12714,7 +12884,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1a5941b-18b1-496d-b500-d730fe7bc16b")
-		(property "Reference" "MX47"
+		(property "Reference" "MX52"
 			(at 91.44 116.84 0)
 			(effects
 				(font
@@ -12722,7 +12892,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "V"
 			(at 91.44 119.38 0)
 			(effects
 				(font
@@ -12766,7 +12936,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "MX47")
+					(reference "MX52")
 					(unit 1)
 				)
 			)
@@ -12782,7 +12952,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f56affc1-3e01-4894-b0da-aa9a1fc738c0")
-		(property "Reference" "D58"
+		(property "Reference" "D60"
 			(at 71.12 170.1799 90)
 			(effects
 				(font
@@ -12854,7 +13024,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "D58")
+					(reference "D60")
 					(unit 1)
 				)
 			)
@@ -12869,7 +13039,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f9843feb-6a09-467a-bff9-7c06c5b1889f")
-		(property "Reference" "MX37"
+		(property "Reference" "MX38"
 			(at 129.54 83.82 0)
 			(effects
 				(font
@@ -12877,7 +13047,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "J"
 			(at 129.54 86.36 0)
 			(effects
 				(font
@@ -12921,7 +13091,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "MX37")
+					(reference "MX38")
 					(unit 1)
 				)
 			)
@@ -12937,7 +13107,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa01a580-b388-45ca-ba33-831aae47ceef")
-		(property "Reference" "S5"
+		(property "Reference" "S3"
 			(at 234.95 98.9329 0)
 			(effects
 				(font
@@ -12985,7 +13155,7 @@
 		(instances
 			(project ""
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "S5")
+					(reference "S3")
 					(unit 1)
 				)
 			)
@@ -13001,7 +13171,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa4456ca-00e1-4b1d-be74-4b059ecced1a")
-		(property "Reference" "MX16"
+		(property "Reference" "MX17"
 			(at 27.94 58.42 0)
 			(effects
 				(font
@@ -13009,7 +13179,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "Tab"
 			(at 27.94 60.96 0)
 			(effects
 				(font
@@ -13017,7 +13187,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1.5u"
 			(at 27.94 66.04 0)
 			(effects
 				(font
@@ -13053,7 +13223,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "MX16")
+					(reference "MX17")
 					(unit 1)
 				)
 			)
@@ -13069,7 +13239,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fafbb9a8-4e2b-49bc-81f0-54fda9b808f3")
-		(property "Reference" "D56"
+		(property "Reference" "D58"
 			(at 210.82 129.5399 90)
 			(effects
 				(font
@@ -13141,7 +13311,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "D56")
+					(reference "D58")
 					(unit 1)
 				)
 			)
@@ -13244,7 +13414,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fd90b74d-3fb7-4cb2-8e31-44605fedf5ae")
-		(property "Reference" "MX33"
+		(property "Reference" "MX34"
 			(at 78.74 83.82 0)
 			(effects
 				(font
@@ -13252,7 +13422,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "D"
 			(at 78.74 86.36 0)
 			(effects
 				(font
@@ -13296,7 +13466,7 @@
 		(instances
 			(project "VoidHHKB-Hotswap"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "MX33")
+					(reference "MX34")
 					(unit 1)
 				)
 			)
@@ -13311,7 +13481,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ff46b8ac-baa6-4c7a-ba1e-518df53255f5")
-		(property "Reference" "MX64"
+		(property "Reference" "MX46"
 			(at 205.74 104.14 0)
 			(effects
 				(font
@@ -13319,7 +13489,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
+		(property "Value" "ISO Enter"
 			(at 205.74 106.68 0)
 			(effects
 				(font
@@ -13363,7 +13533,7 @@
 		(instances
 			(project "VoidHHKB-Solder"
 				(path "/134d9255-031f-4eb2-9ae6-9a1e71cdb3f6/8e0310b8-1b33-4b96-b32b-d07a4b21fbe1"
-					(reference "MX64")
+					(reference "MX46")
 					(unit 1)
 				)
 			)

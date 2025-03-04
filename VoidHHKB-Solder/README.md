@@ -1,8 +1,8 @@
-# VoidHHKB-S
+# VoidHHKB-Solder
 
-![](images/VoidHHKB-S.bottom.png)
+![](images/VoidHHKB-Solder.bottom.png)
 
-![](images/VoidHHKB-S.top.png)
+![](images/VoidHHKB-Solder.top.png)
 
 ## Ordering from JLCPCB
 
